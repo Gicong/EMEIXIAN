@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="EMeiXian:war exploded">
-    <output-path>$PROJECT_DIR$/target/lcks-SSM</output-path>
+  <artifact type="exploded-war" name="lcks-SSM:war exploded">
+    <output-path>$PROJECT_DIR$/target/EMeiXian</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="EMeiXian" />
+          <element id="module-output" name="lcks-SSM" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.8.RELEASE" />
@@ -32,9 +32,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/lcks-SSM/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/EMeiXian/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="EMeiXian/web/Web" />
+      <element id="javaee-facet-resources" facet="lcks-SSM/web/Web" />
     </root>
   </artifact>
 </component>

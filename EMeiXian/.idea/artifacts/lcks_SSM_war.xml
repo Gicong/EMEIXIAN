@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lcks-SSM:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="EMeiXian.war">
+      <element id="artifact" artifact-name="lcks-SSM:war exploded" />
+    </root>
+  </artifact>
+</component>
