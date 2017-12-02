@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="EMeiXian" />
         <module name="lcks-SSM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="EMeiXian" target="1.5" />
       <module name="lcks-SSM" target="1.5" />
     </bytecodeTargetLevel>
   </component>
